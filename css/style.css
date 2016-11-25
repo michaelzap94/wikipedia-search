@@ -1,0 +1,90 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #232323;
+}
+
+#searchForm > * {
+  display: inline;
+}
+
+.form-control {
+  width: 200px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 25px;
+  text-align: center;
+  color: steelblue;
+  font-family: "Great Vibes", cursive;
+  font-weight: bolder;
+  text-shadow: 0 1px 1px #fff;
+}
+
+
+/*search text animation*/
+
+#searchText {
+  width: 100px;
+  -webkit-transition: width .35s ease-in-out;
+  transition: width .35s ease-in-out;
+  margin-bottom: 10px;
+}
+
+#searchText:focus {
+  width: 245px;
+}
+
+
+/******************/
+
+#containerForm {
+  width: 350px;
+  height: 100px;
+}
+
+.classTop {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.classMiddle {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+ul {
+  /***********************/
+  list-style: none;
+  /************************/
+}
+
+li {
+  background: whitesmoke;
+  padding: 20px;
+  margin: 10px;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+li:hover {
+  background: steelblue;
+}
